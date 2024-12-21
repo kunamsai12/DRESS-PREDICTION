@@ -1,0 +1,98 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #ffffff; /* Default white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #f2a2a2; /* Light red border */
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #555555;
+}
+
+select {
+    padding: 8px;
+    border: 2px solid #7a7a7a; /* Grey border */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #e2e2e2; /* Light grey background */
+    transition: background-color 0.3s;
+}
+
+select:hover {
+    background-color: #cccccc; /* Darker grey on hover */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745; /* Green button background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.result-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#dressSuggestion {
+    font-size: 18px;
+    color: #444444;
+    margin-bottom: 15px;
+    background-color: #fff3cd; /* Light yellow background */
+    padding: 10px;
+    border: 1px solid #ffeeba; /* Light yellow border */
+    border-radius: 8px;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.images-container img {
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

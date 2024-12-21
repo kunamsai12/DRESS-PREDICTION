@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Boys' Dress Prediction</h1>
+        <div class="form-container">
+            <label for="color">Select Color:</label>
+            <select id="color">
+                <option value="red">Red</option>
+                <option value="black">Black</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="white">White</option>
+                <option value="normal shirt">Normal Shirt</option>
+            </select>
+
+            <label for="occasion">Select Occasion:</label>
+            <select id="occasion">
+                <option value="party">Party</option>
+                <option value="formal">Formal</option>
+                <option value="tradition">Traditional</option>
+            </select>
+
+            <label for="season">Select Season:</label>
+            <select id="season">
+                <option value="summer">Summer</option>
+                <option value="winter">Winter</option>
+                <option value="normal">Normal</option>
+            </select>
+
+            <button id="predictButton">Predict Dress</button>
+        </div>
+
+        <div class="result-container">
+            <h2 id="dressSuggestion">Your Dress Suggestion Will Appear Here</h2>
+            <div id="dressImageContainer" class="images-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
